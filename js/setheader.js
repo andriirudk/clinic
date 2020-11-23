@@ -1,9 +1,9 @@
 function setheader(){
-    if(document.body.clientWidth<960)
+    if(document.body.clientWidth<768)
     {
-        $('header').load("assets/header/mobile.html")
+        $('sass').load("assets/sass/mobile.html")
     }
     else{
-        $('header').load("assets/header/desktop.html")
+        $('sass').load("assets/sass/desktop.html")
     }
 }
